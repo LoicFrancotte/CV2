@@ -46,12 +46,12 @@ section p{
 .miam p{
     font-weight: 400;
     margin: 10px 12px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .miaou{
-    margin: -10px 50px;
-    font-size: 18px;
+    margin: 20px 50px;
+    font-size: 15px;
 }
 
 li{
@@ -71,9 +71,7 @@ hr{
 
 .bar{
     position: relative;
-
     border: 3px solid #080808;
-
     border-radius: 20px;
 }
 
@@ -312,7 +310,8 @@ hr{
 
     .miaou{
         margin: 30px 150px;
-        text-align: justify; 
+        text-align: justify;
+        font-size: 18px;
     }
 
     .miam span{
@@ -323,6 +322,10 @@ hr{
         margin-top: 100px;
     }
 
+    .miam p{
+        font-size: 20px;
+    }
+
     .details{
         margin: 20px 0px;
     }
@@ -331,6 +334,10 @@ hr{
 @media (min-width: 1200px){
     section{
         margin: 0 350px;
+    }
+
+    h1{
+        margin-top: 120px;
     }
 
     .header{
